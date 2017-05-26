@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: jxcgl3PMxL4cLHh+sclaNhZmvlpFQS+iHLjyujIn+e8tseOxXTBLCBPVWBGRFkHvMiD/2Eiv5XWDGzEE6YI/wovEZtZPsLvLRzYrfrKZ1F/tMDJ/7eJg1oKFmkVAHoSxCDqe8impvRgWHt4q8nsfeuOYbSoBEtOIffT3UBMGlwaqs3tKCC10EpA5lA6N1XG+0Y115uZQYw08EuowGaE2C6olloUv2JdDPpJ0TbdLNE+kEPhMgMyUUNfZFySQuWxmE4gn2QKjiVz7+Fzw+x6gm5dTshOu/olhT/JLCkSfSMEBITCq1QarYoWszmJp+ScRtTsI81j406SjMv4y8j5wfzUM+AiqC6h73N8mwVllFm0zPGhX3mJ6n2K0oZMcej/M/UZ4DP6Gy4YXA635a2g6ZaN53ep9Q8oM/qLjj3HWLtyc+f4O06ZVEPmh8eU5S7YAG90Q7qRlrZaa0WAcTW8MkGEQDAB9o2LxQf04EM7BZZ5r9iFa4Bf4adD3F7JzHZmLlwnriQ0sGEL72EKUAFHcJVIPzBLZ4unWvd3dhFdGSRxNVv/wYWp1y1BrcIPRNhH+q3ECfpJYmddU38cOYvMBrVDOMYvDrpzgDCLBY/Zva7Mij/WlxN9J5HWZlKPtYlbCHosj1KI2SOYqjNPll13zWXr1rFsCKsPwuqlAQO3EWpc=
+  app: sleepy-beyond-49567
+  on:
+    repo: True14/node-shopping-list-integration-tests
